@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.header {
+    background-color: #131921;
+    height: 60px;
+}
+
+.container {
+    width: 98%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+}
+.logo-container {
+     height: 50px;
+}
+.logo {
+    width: 97px;
+    height: 30px;
+}
+
+img:hover {
+    border: 1.5px solid #ffffff;
+    border-radius: 5px;
+    margin-top: 2px;
+}
+.address-container p {
+    color: #cccccc;
+    padding-left: 15px;
+    font-size: 14px;
+    font-family: "Amazon Ember",Arial,sans-serif;
+
+}
+.address-container :hover {
+    border: 1.5px solid #ffffff;
+    border-radius: 5px;
+}
+.search-container {
+    margin-left: 25px;
+    width: 645px;
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    border-radius:3px ;
+    margin-top: 10px;
+    overflow: hidden ;
+}
+.search-container:hover {
+    outline: 2px solid rgb(190, 116, 30);
+}
+.search-select {
+    width: 70px;
+    background-color: #f1e7e7;
+    border: none;
+}
+.search-input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 3px;
+}
+.search-icon {
+    width: 50px;
+    background-color: rgb(223, 123, 9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.7rem;
+    color: #000;
+}
+
+.language-container {
+    color: #cccccc;
+    display: flex;
+    width: 10px;
+    margin-left: 25px;
+}
+.language-container p {
+    font-size: 0.8rem;
+}
