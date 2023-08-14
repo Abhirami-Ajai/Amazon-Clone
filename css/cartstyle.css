@@ -1,0 +1,166 @@
+* {
+    font-family: "Amazon Ember",Arial,sans-serif;
+}
+
+body { 
+    background-color: rgb(230, 235, 235);
+}
+
+.cart1 {
+    border: 1px solid rgb(197, 195, 195);
+    border-color: whitesmoke;
+    background-color: white;
+    width: 70%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.sc h1 {
+    font-size: 28px;
+    font-weight: 300;
+    color: #0f1111;
+    margin: 2%;
+}
+
+hr {
+    background-color: rgb(230, 235, 235);
+}
+
+.cart-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cart-desc {
+    font-size: 18px;
+    color: #0f1111;
+}
+
+.button {
+    background-color: #CC0C39;
+    border: none;
+    color:white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+.btnred {
+    display: flex;
+    margin-top: -15px;
+}
+  .deal p {
+    color:#cc0c39 ;
+    font-size: 12px;
+  }
+
+  .rate-tag {
+    display: flex;
+    align-items: center;
+    margin-top: -15px;
+  }
+
+  .strike {
+    font-size: 12px;
+    color: #565959;
+    padding-left: 6px;
+  }
+  .rate {
+    font-weight: bold;
+  }
+  .x {
+    display: flex;
+    align-items: center;
+    margin-top: -2px;
+  }
+
+  .gift a{
+    color: rgb(80, 122, 80);
+    text-decoration:none ;
+  }
+  a:hover {
+    color: rgb(236, 75, 12);
+    text-decoration: underline;
+  }
+
+  .qty-btn {
+    display: flex;
+    align-items: center;
+  }
+
+  .qty-btn a {
+    color: rgb(42, 121, 121);
+    text-decoration:none ;
+    padding: 0px 10px;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .button1 {
+    background-color: rgb(175, 174, 174);
+    border: none;
+    border-radius: 15px;
+    color:rgb(20, 20, 20);
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .sub {
+    font-size: 14px;
+    text-align: right;
+    padding-right: 20px;
+  }
+
+  .cart-main {
+    display: flex;
+  }
+
+  .cart2 {
+    border: 1px solid rgb(197, 195, 195);
+    border-color: whitesmoke;
+    background-color: white;
+    width: 25%;
+    height: 40%;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.l {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub1 {
+  font-size: 18px;
+  padding-right: 20px;
+  margin-left: 50px;
+}
+.x1 {
+  display: flex;
+  align-items: center;
+  margin-top: -15px;
+  margin-left: 50px;
+}
+.button2 {
+  background-color: #f5b32e;
+  border: none;
+  color:black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius:15px;
+  margin-left: 60px;
+  width: 60%;
+}
